@@ -1,0 +1,189 @@
+
+
+body {
+  background-color: rgb(232, 232, 241) !important;
+}
+/* 
+.sec-slider{
+  padding: 40px;
+} */
+
+
+/* custom navbar */
+
+
+.custom-navbar {
+  background-color: #005391 !important;
+  padding-top: 5px;   /* Adjust the top padding */
+  padding-bottom: 5px; /* Adjust the bottom padding */
+}
+
+.custom-navbar .navbar-nav .nav-link {
+  color: white !important; /* Use !important to override Bootstrap styles */
+  padding-top: 5px;    /* Adjust the top padding for the links */
+  padding-bottom: 5px; /* Adjust the bottom padding for the links */
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.custom-navbar .navbar-brand img {
+  height: 60px; /* Adjust the logo height if needed */
+}
+
+.navbar-toggler {
+  border-color: white !important; /* Change border color to white */
+}
+
+/* Custom styles for the navbar-toggler-icon */
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=UTF8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+}
+
+/* Optional: Add this to your stylesheet or in <style> tag */
+.media img {
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.media-list {
+  max-height: 520px;
+  overflow-y: auto;
+  padding-right: 10px;
+}
+
+/* Scrollbar style */
+.media-list::-webkit-scrollbar {
+  width: 5px;
+}
+
+.media-list::-webkit-scrollbar-thumb {
+  background-color: rgb(232, 232, 241);
+  border-radius: 10px;
+}
+
+
+
+/* table */
+
+
+.ranking-table {
+  max-width: 600px;
+  margin: 30px auto;
+  background-color: rgb(232, 232, 241);
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.ranking-table h3 {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.ranking-table table {
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.table td, .table th {
+  vertical-align: middle;
+}
+
+.flag-icon {
+  width: 25px;
+  margin-right: 10px;
+}
+
+.arrow-up {
+  color: green;
+}
+
+.arrow-down {
+  color: red;
+}
+
+/* horizontal imgs scrolling */
+
+.horizontal-scroll-gallery .scroll-wrapper {
+  display: flex;
+  gap: 20px;
+  padding-bottom: 10px;
+}
+
+.horizontal-scroll-gallery .media-card {
+  flex: 0 0 33.33%; /* Show 3 items in a row (100% / 3) */
+  max-width: 33.33%;  /* Ensures 3 items fit per row */
+  height: 300px;      /* Increased height for the card */
+  /* border: 1px solid #ccc;
+  border-radius: 10px; */
+  background: rgb(232, 232, 241);
+  /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.horizontal-scroll-gallery {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.container {
+  max-width: 100%;
+}
+
+h2 {
+  margin-bottom: 1.5rem;
+  text-align: left; /* Align text to the left */
+}
+
+.scroll-wrapper {
+  display: flex;
+  overflow-x: scroll;
+  gap: 20px;
+  padding-bottom: 10px;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  scrollbar-width: none;         /* Firefox */
+  -ms-overflow-style: none;      /* Internet Explorer 10+ */
+}
+
+.scroll-wrapper::-webkit-scrollbar {
+  display: none;                 /* Chrome, Safari, Opera */
+}
+
+.media-card {
+  flex: 0 0 auto;
+  width: 300px;  /* Adjusted width of the card */
+  scroll-snap-align: start;
+  border: none;  /* Removed border */
+  overflow: hidden;
+  background: #fff;
+  box-shadow: none;  /* Removed box-shadow */
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  text-align: center;
+}
+
+.media-card:hover {
+  transform: scale(1.02);
+}
+
+.media-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;  /* Ensure images fit properly */
+}
+
+.media-card h6 {
+  color: rgb(59, 112, 226);
+  margin-top: 10px;
+  font-size: 0.9rem;
+}
+
+.media-card p {
+  margin-top: 5px;
+  font-size: 0.8rem;
+  color: #444;
+}
+
+
