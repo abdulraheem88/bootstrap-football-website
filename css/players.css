@@ -60,7 +60,7 @@ body {
     border-radius: 0px;
     border: 1px solid black;
     outline: black;
-    width: 300px;
+    width: 200px;
     margin-right: 10px;
     transition: box-shadow 0.3s ease;
   }
