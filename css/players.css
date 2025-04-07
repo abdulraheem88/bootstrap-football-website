@@ -1,0 +1,134 @@
+
+
+body {
+    background-color: rgb(232, 232, 241) !important;
+  }
+  /* 
+  .sec-slider{
+    padding: 40px;
+  } */
+  
+  
+  /* custom navbar */
+  
+  
+  .custom-navbar {
+    background-color: #005391 !important;
+    padding-top: 5px;   /* Adjust the top padding */
+    padding-bottom: 5px; /* Adjust the bottom padding */
+  }
+  
+  .custom-navbar .navbar-nav .nav-link {
+    color: white !important; /* Use !important to override Bootstrap styles */
+    padding-top: 5px;    /* Adjust the top padding for the links */
+    padding-bottom: 5px; /* Adjust the bottom padding for the links */
+    font-size: 14px;
+    font-weight: 600;
+  }
+  
+  .custom-navbar .navbar-brand img {
+    height: 60px; /* Adjust the logo height if needed */
+  }
+  
+  .navbar-toggler {
+    border-color: white !important; /* Change border color to white */
+  }
+  
+  /* Custom styles for the navbar-toggler-icon */
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=UTF8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+  }
+  
+
+
+
+  
+  /* Main heading */
+  h1 {
+    font-size: 2.8rem;
+    padding: 12px 20px;
+    margin-bottom: 30px;
+    color: #f5c518;
+    /* text-shadow: 1px 1px 3px #000; */
+  }
+  
+  /* Input and button container */
+  input[type="text"] {
+    margin-left: 8%;
+    padding: 12px 20px;
+    font-size: 1rem;
+    border-radius: 0px;
+    border: 1px solid black;
+    outline: black;
+    width: 300px;
+    margin-right: 10px;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  input[type="text"]:focus {
+    box-shadow: 0 0 10px #1331df;
+  }
+  
+  /* Search Button */
+  button {
+    padding: 12px 20px;
+    background-color: #1827f5;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  button:hover {
+    background-color: #a01355;
+    transform: scale(1.05);
+  }
+  
+  /* Player Info */
+  div > h2#playerName {
+    font-size: 1.8rem;
+    margin-top: 40px;
+    padding: 12px 20px;
+    color: #a01355;
+    /* text-shadow: 1px 1px 2px #2443cc; */
+  }
+  
+  p#playerStats {
+    font-size: 1.8rem;
+    margin-top: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 12px 20px;
+    border-radius: 10px;
+    max-width: 400px;
+    backdrop-filter: blur(6px);
+  }
+  
+  /* Error message */
+  p#errorMessage {
+    color: #f10909;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 20px;
+  }
+  
+  /* Loading spinner */
+  .loading {
+    margin-left: 50%;
+    border: 6px solid #5319f0;
+    border-top: 6px solid #000000;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    animation: spin 1s linear infinite;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
