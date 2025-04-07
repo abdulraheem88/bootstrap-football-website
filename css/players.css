@@ -54,7 +54,7 @@ body {
   
   /* Input and button container */
   input[type="text"] {
-    margin-left: 8%;
+    margin-left: 3%;
     padding: 12px 20px;
     font-size: 1rem;
     border-radius: 0px;
@@ -71,7 +71,7 @@ body {
   
   /* Search Button */
   button {
-    padding: 12px 20px;
+    padding: 12px 10px;
     background-color: #1827f5;
     color: #ffffff;
     border: none;
