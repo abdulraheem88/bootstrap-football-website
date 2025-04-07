@@ -82,7 +82,7 @@ body {
   }
   
   button:hover {
-    background-color: #a01355;
+    /* background-color: #a01355; */
     transform: scale(1.05);
   }
   
